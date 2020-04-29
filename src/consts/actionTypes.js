@@ -1,0 +1,15 @@
+export const CREATE_TODO = 'CREATE_TODO';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+// export const SELECT_CATEGORY = 'SELECT_CATEGORY';
+// export const GO_BACK_TO_MAIN = 'GO_BACK_TO_MAIN';
+// export const INPUT_CHANGE_SPENDING = 'INPUT_CHANGE_SPENDING';
+// export const INPUT_CHANGE_INCOME = 'INPUT_CHANGE_INCOME';
+// export const ADD_NEW_ITEM = 'ADD_NEW_ITEM';
+// export const ADD_NEW_INCOME = 'ADD_NEW_INCOME';
+// export const DELETE_ITEM = 'DELETE_ITEM';
+// export const DELETE_INCOME = 'DELETE_INCOME';
+// export const TOGGLE_STATUS = 'TOGGLE_STATUS';
+// export const TOGGLE_STATUS_INCOME = 'TOGGLE_STATUS_INCOME';
+// export const UPDATE_FEEDBACK_STATUS = 'UPDATE_FEEDBACK_STATUS';
+// export const INPUT_CHANGED = 'INPUT_CHANGED';

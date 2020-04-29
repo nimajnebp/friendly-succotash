@@ -1,0 +1,30 @@
+//
+// @File
+// App theming.
+//
+
+.site-logo {
+  padding: 12px 0;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+  color: rgba(199,199,199,0.97);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100%;
+
+  @media (max-width: 768px) {
+    padding: 1rem !important;
+  }
+}

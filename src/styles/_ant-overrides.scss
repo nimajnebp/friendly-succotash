@@ -1,0 +1,35 @@
+//
+// @File
+// Ant design overrides.
+//
+
+.ant-typography {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: .5rem !important;
+
+  > * {
+    flex: 0 1 auto;
+
+    &:first-child {
+      flex: 0 1 100%;
+    }
+  }
+
+  .ant-btn {
+    max-height: 50px;
+  }
+}
+
+.ant-list-item {
+  padding-bottom: 0 !important;
+  padding-top: 1.5rem !important;
+
+  .ant-typography {
+    margin-bottom: 0 !important;
+  }
+}
+
+.ant-input {
+  text-align: left;
+}
